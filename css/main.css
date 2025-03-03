@@ -12,3 +12,26 @@ header {
         font-weight: bolder;
     }
 }
+.gallery-content{
+    max-width: 90.0rem;
+    margin: 5rem auto 2rem;
+
+    .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+   
+    .gallery-grid li img{
+        width: 100%;
+        filter: drop-shadow(0 0 0 0.9rem Blue);
+    }
+}
+picture{
+    display: block;
+    max-width: 80.0rem;
+    margin: 5rem auto 2rem;
+    width: 100%;
+    filter: drop-shadow(0 0 0 0.9 red);
+
+}
