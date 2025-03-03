@@ -1,1 +1,14 @@
 @import url(./reset.css);
+
+/* theme */ 
+
+header {
+    h1{
+        background-color: black;
+        line-height: 6.5rem;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}
